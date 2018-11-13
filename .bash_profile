@@ -11,8 +11,8 @@
 	CYAN=$(tput setaf 6)
 # prompt
 	PS1="\[${RED}${BOLD}\]\u ";
-	PS1+="\[${RESET}${BOLD}\]on \[${YELLOW}${BOLD}\]\h ";
-	PS1+="\[${RESET}${BOLD}\]using \[${CYAN}${BOLD}\]\s ";
-	PS1+="\[${RESET}${BOLD}\]in \[${GREEN}${BOLD}\]\W ";
-	PS1+="\[${RESET}${BOLD}\]\n\$ \[${RESET}\]";
+	PS1+="\[${RESET}\]on \[${YELLOW}${BOLD}\]\h ";
+	PS1+="\[${RESET}\]using \[${CYAN}${BOLD}\]\s ";
+	PS1+="\[${RESET}\]in \[${GREEN}${BOLD}\]\W ";
+	PS1+="\[${RESET}\]\n\$ \[${RESET}\]";
 export PS1
